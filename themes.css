@@ -1,0 +1,70 @@
+:root {
+    --primary: #7e22ce;      /* Deep purple */
+    --secondary: #a855f7;    /* Light purple */
+    --dark: #111827;         /* Dark gray */
+    --light: #f5f3ff;        /* Lavender */
+    --accent: #06b6d4;       /* Cyan */
+    --primary-background: linear-gradient(135deg, #0d0b1a, #111827);
+    --secondary-background: linear-gradient(to bottom, #0d0b1a, #111827);
+}
+
+:root .theme-1{
+    --primary: #ea580c;      /* Burnt orange */
+    --secondary: #f97316;    /* Vibrant orange */
+    --dark: #1e293b;         /* Deep blue */
+    --light: #fffbeb;        /* Cream */
+    --accent: #f43f5e;       /* Coral pink */
+    --primary-background: linear-gradient(135deg, #1a0d1f, #2d1a33);
+    --secondary-background: linear-gradient(to bottom, #1a0d1f, #2d1a33);
+}
+
+:root .theme-2{
+    --primary: #be185d;      /* Deep pink */
+    --secondary: #db2777;    /* Rose pink */
+    --dark: #1e1b4b;         /* Dark purple */
+    --light: #fdf2f8;        /* Pale pink */
+    --accent: #f59e0b;       /* Gold */
+    --primary-background: linear-gradient(135deg, #0f0c29, #1e1b4b);
+    --secondary-background: linear-gradient(to bottom, #0f0c29, #1e1b4b);
+}
+
+:root .theme-3{
+    --primary: #6366f1;      /* Indigo */
+    --secondary: #38bdf8;    /* Sky blue */
+    --dark: #020617;         /* Deepest blue-black */
+    --light: #e2e8f0;        /* Light gray */
+    --accent: #f472b6;       /* Pink */
+    --primary-background: linear-gradient(135deg, #00030c, #020617);
+    --secondary-background: linear-gradient(to bottom, #00030c, #020617);
+}
+
+:root .theme-4{
+    --primary: #166534;      /* Forest green */
+    --secondary: #22c55e;    /* Emerald green */
+    --dark: #0c0a09;         /* Rich black */
+    --light: #f0fdf4;        /* Pale green */
+    --accent: #f59e0b;       /* Amber */
+    --primary-background: linear-gradient(135deg, #0a1308, #0c0a09);
+    --secondary-background: linear-gradient(to bottom, #0a1308, #0c0a09);
+}
+
+:root .theme-5{
+    --primary: #7e22ce;      /* Deep purple */
+    --secondary: #a855f7;    /* Light purple */
+    --dark: #111827;         /* Dark gray */
+    --light: #f5f3ff;        /* Lavender */
+    --accent: #06b6d4;       /* Cyan */
+    --primary-background: linear-gradient(135deg, #0d0b1a, #111827);
+    --secondary-background: linear-gradient(to bottom, #0d0b1a, #111827);
+}
+
+:root .theme-6{
+    --primary: #2563eb;
+    --secondary: #0ea5e9;
+    --dark: #1e293b;
+    --light: #f8fafc;
+    --accent: #8b5cf6;
+    --primary-background: linear-gradient(135deg, #0f172a, #1e293b);
+    --secondary-background: linear-gradient(to bottom, #0f172a, #1e293b);
+    --transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="themes.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Social Media Sidebar -->
+    <div class="social-sidebar">
+        <a href="https://www.linkedin.com/in/siddharth-pradhan-47a3a028a/" target="_blank" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Siddharth-Pradhan" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+        <a href="https://x.com/cid0heart" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/its_me_sid_aka_sp" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container nav-container">
+            <a href="#" class="logo" onclick="themeChange()">S.P</a>
+            <div class="nav-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container hero-content">
+            <h1 class="hero-title animate">Siddharth Pradhan</h1>
+            <p class="hero-subtitle animate delay-1">web Developer</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary animate delay-2">View My Work</a>
+                <a href="#contact" class="btn btn-secondary animate delay-3">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image animate">
+                    <img src="dp.jpg" alt="Profile Image">
+                </div>
+                <div class="about-text animate delay-1">
+                    <h3>Hi! I'm Siddharth Pradhan</h3>
+                    <p>I'm a passionate web developer with 3+ years of experience creating beautiful and functional web applications. I specialize in React, Vue.js, and modern CSS frameworks.</p>
+                    <p>My approach combines technical expertise with an eye for design, ensuring that every project I work on is both visually appealing and highly functional.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or binge watching webseries.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="contact-div">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card animate">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="skill-name">HTML5 & CSS3</h3>
+                    <p class="skill-desc">Semantic markup, responsive design, CSS animations, Flexbox, Grid</p>
+                </div>
+                <div class="skill-card animate delay-1">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3 class="skill-name">JavaScript</h3>
+                    <p class="skill-desc">ES6+, DOM manipulation, asynchronous programming, APIs</p>
+                </div>
+                <div class="skill-card animate delay-2">
+                    <div class="skill-icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <h3 class="skill-name">React.js</h3>
+                    <p class="skill-desc">Components, Hooks, Context API, Redux, Next.js</p>
+                </div>
+             
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-container">
+                <div class="project-card animate">
+                    <div class="project-img">
+                       <i class="fa-solid fa-calculator"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Gradely</h3>
+                        <p class="project-desc">a responsive web-based grade calculator to compute SGPA and CGPA based on user-input course credits and
+                      grades.
+                      Applied core GPA calculation logic using credit-weighted average formulas, supporting multiple semesters.
+                      Optimized for all screen sizes with mobile-friendly layout and minimal load time.</p>
+                        <a href="https://siddharth-pradhan.github.io/Gradely/" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="project-card animate delay-1">
+                    <div class="project-img">
+                        <i class="fa-solid fa-cloud-sun-rain"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sunnyside</h3>
+                        <p class="project-desc">a responsive web application that fetches and displays real-time weather data for any city.
+                    Implemented geolocation-based search and dynamic weather updates including temperature, humidity, wind speed,
+                    and conditions.
+                    Utilized JavaScript Fetch API to handle API requests and parse JSON responses for live weather information.</p>
+                        <a href="https://siddharth-pradhan.github.io/Sunnyside.web/" class="project-link">View Project <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-div">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item animate">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>hellimmortal51new@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item animate delay-1">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 9777234590</p>
+                        </div>
+                    </div>
+                    <div class="contact-item animate delay-2">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form animate delay-3">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Siddharth Pradhan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
